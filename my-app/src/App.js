@@ -68,7 +68,10 @@ function App() {
         <p>Click <b>{'New'}</b> to generate a new song!</p>
         <p>This may take some time, depending on your computer. Please be patient.</p>
       </div>
-      
+      <div className="links">
+        <a href="https://github.com/Bravenstein09/bgl/" target="_blank">github</a> 
+      </div>
+
       <section className="backdrop"></section>
     </div>
   );
