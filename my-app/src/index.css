@@ -12,5 +12,5 @@ code {
 
 @font-face {
   font-family: 'Azuki';
-  src: local('Azuki'), url(fonts/azukiB.ttf) format('truetype');
+  src: local('Azuki'), url(font/azukiB.ttf) format('truetype');
 }
