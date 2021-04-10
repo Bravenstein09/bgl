@@ -69,7 +69,8 @@ function App() {
         <p>This may take some time, depending on your computer. Please be patient.</p>
       </div>
       <div className="links">
-        <a href="https://github.com/Bravenstein09/bgl/" target="_blank">github</a> 
+        <p>Links<p>
+        <a href="https://github.com/Bravenstein09/bgl/" target="_blank">The Github Repo</a> 
       </div>
 
       <section className="backdrop"></section>
