@@ -130,4 +130,8 @@ button:focus {
   .link {
     font-size: 1rem;
   }
+  
+  .liscense {
+    font-size: .75rem;
+  }
 }
