@@ -70,7 +70,8 @@ function App() {
       </div>
       <div className="links">
         <p>Links</p>
-        <a href="https://github.com/Bravenstein09/bgl/" target="_blank">The Github Repo</a> 
+        <a href="https://github.com/Bravenstein09/bgl/" target="_blank">The Github Repo</a>
+        <p>More Genres Coming Soon!</p>
       </div>
 
       <section className="backdrop"></section>
