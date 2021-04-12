@@ -71,7 +71,7 @@ button:focus {
   background: linear-gradient(-45deg, #deaaff , #c0fdff);
   background-size: 100% 100%;
   position: absolute;
-  z-index: -5;
+  z-index: -3;
 }
 
 .backdrop {
@@ -128,7 +128,7 @@ button:focus {
   }
   
   .link {
-    font-size: 1rem;
+    font-size: .75rem;
   }
   
   .liscense {

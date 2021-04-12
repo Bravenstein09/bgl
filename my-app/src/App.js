@@ -70,9 +70,8 @@ function App() {
       </div>
       <div className="links">
         <a href="https://github.com/Bravenstein09/bgl/" target="_blank">The Github Repo</a> 
-	<p>More Genres Coming Soon!</p>
-      </div>
-      <div className="liscense">
+	<p> </p>
+        <a href="https://www.youtube.com/channel/UCLzxBAKVGseaDLiMcJZlYaw" target="_blank">My Youtube</a>
 	<p>You can use these beats that are generated for almost any purpose, i just ask that you credit me and/or the website</p>
       </div>
 

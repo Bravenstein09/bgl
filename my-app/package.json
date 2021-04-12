@@ -1,6 +1,8 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
+  "name": "BGL",
+  "version": "1.0.0",
+  "author": "Bravenstein",
+  "description": "Lofi Beat Generator",
   "private": false,
   "homepage": ".",
   "dependencies": {
@@ -9,7 +11,10 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@tonaljs/tonal": "^4.1.0",
+    "electron-is-dev": "^2.0.0",
+    "electron-packager": "^15.2.0",
     "gh-pages": "^3.1.0",
+    "is-electron": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^4.0.3",
@@ -19,11 +24,13 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "electron-dev": "concurrently \"cross-env BROWSER=none npm start\" \"wait-on http://localhost:3000 && electron .\"",
+    "electron-pack": "electron-builder -c.extraMetadata.main=build/electron.js",
+    "preelectron-pack": "react-scripts build"
   },
+ 
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -38,5 +45,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.1",
+    "cross-env": "^7.0.3",
+    "electron": "^12.0.2",
+    "electron-builder": "^22.10.5",
+    "wait-on": "^5.3.0"
   }
 }
