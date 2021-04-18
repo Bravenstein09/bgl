@@ -32,8 +32,8 @@ function App() {
   return (
     <div className="App">
       <div className="header">
-        <h1>BGL</h1>
-        <h3>a project by Bravenstein</h3>
+        <h2>BGL</h2>
+        <h4>a project by Bravenstein</h4>
       </div>
 
       <div className="colorBox">
@@ -70,9 +70,10 @@ function App() {
       </div>
       <div className="links">
         <a href="https://www.youtube.com/channel/UCLzxBAKVGseaDLiMcJZlYaw" target="_blank">My Youtube</a>
-	<p> </p>
-	<p> Download the desktopk app<a href="https://github.com/Bravenstein09/bgl/releases/" target="_blank">here!</a></p>
-	<p>You can use these beats that are generated for almost any purpose, i just ask that you credit me and/or the website</p>
+	<p> Download the desktop app <a href="https://github.com/Bravenstein09/bgl/releases/" target="_blank">here!</a></p>
+      </div>
+      <div className="braven">
+	<p> This is a project by Bravenstein</p>
       </div>
 
       <section className="backdrop"></section>
