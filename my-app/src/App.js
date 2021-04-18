@@ -69,11 +69,9 @@ function App() {
         <p>This may take some time, depending on your computer. Please be patient.</p>
       </div>
       <div className="links">
-        <a href="https://github.com/Bravenstein09/bgl/" target="_blank">The Github Repo</a> 
-	<p> </p>
         <a href="https://www.youtube.com/channel/UCLzxBAKVGseaDLiMcJZlYaw" target="_blank">My Youtube</a>
 	<p> </p>
-	<a href="https://github.com/Bravenstein09/bgl/releases/" target="_blank">Download</a>
+	<p> Download the desktopk app<a href="https://github.com/Bravenstein09/bgl/releases/" target="_blank">here!</a></p>
 	<p>You can use these beats that are generated for almost any purpose, i just ask that you credit me and/or the website</p>
       </div>
 
