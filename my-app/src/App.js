@@ -33,7 +33,6 @@ function App() {
     <div className="App">
       <div className="header">
         <h2>BGL</h2>
-        <h4>a project by Bravenstein</h4>
       </div>
 
       <div className="colorBox">
@@ -68,11 +67,9 @@ function App() {
         <p>Click <b>{'New'}</b> to generate a new song!</p>
         <p>This may take some time, depending on your computer. Please be patient.</p>
       </div>
-      <div className="links">
-        <a href="https://www.youtube.com/channel/UCLzxBAKVGseaDLiMcJZlYaw" target="_blank">My Youtube</a>
-	<p> Download the desktop app <a href="https://github.com/Bravenstein09/bgl/releases/" target="_blank">here!</a></p>
-      </div>
       <div className="braven">
+	<p> You can use these beats for any purpose for now. :) </p>
+	<p>       </p>
 	<p> This is a project by Bravenstein</p>
       </div>
 
